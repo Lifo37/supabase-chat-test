@@ -10,7 +10,8 @@ module.exports = {
       "text-unfocus": "#b9bbbe",
       "white": colors.white,
       black: colors.black,
-      slate: colors.slate
+      slate: colors.slate,
+      violet: colors.violet
     },
     extend: {},
   },

@@ -3,6 +3,8 @@
 @tailwind utilities;
 @tailwind variants;
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,6 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  font-family: 'Cabin', sans-serif;
   background: black;
   overflow: hidden;
 
@@ -31,11 +34,22 @@ body {
 @layer components {
   .nav-icon {
     @apply relative flex items-center justify-center
-           h-12 w-12 ml-2 mb-2 
+           h-12 w-12
            text-3xl text-text-unfocus
            transition-all duration-200
            hover:text-4xl;
   }
+
+  .button {
+  @apply font-black grid grid-cols-2 gap-5
+        place-items-center border rounded-md
+        hover:border-slate-300 focus:border-slate-600
+        active:bg-slate-700 min-w-[60px] shrink
+        pl-4 pr-4 pt-2 pb-2
+        md:gap-2
+  }
+
+  
 
   
 }
