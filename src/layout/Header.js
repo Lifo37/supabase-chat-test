@@ -4,7 +4,7 @@ import IconButton from "../components/IconButton"
 
 export default function Header() {
     return (
-    <div className="p-6 text-lg max-w max-h-[80px] flex items-center bg-primary 
+    <div className="p-6 text-lg max-w max-h-[70px] flex items-center bg-primary 
                     gap-3 justify-between">
         <div className="font-extrabold text-3xl shadow-lg">
             <FiMenu />

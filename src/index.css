@@ -49,7 +49,18 @@ body {
         md:gap-2
   }
 
-  
+  .chatbox::-webkit-scrollbar {
+    @apply bg-primary;
+  }
+
+
+  .chatbox::-webkit-scrollbar-track {
+    @apply bg-primary;
+  }
+
+  .chatbox::-webkit-scrollbar-thumb {
+    @apply bg-secondary;
+  }
 
   
 }
